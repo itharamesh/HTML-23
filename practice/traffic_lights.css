@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pole{
+    border: 2px solid black;
+    height: 350px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap:30px;
+    border-radius: 120px;
+}
+.lights{
+    border: 2px solid black;
+    height: 70px;
+    width: 70px;
+    background-color: beige;
+    border-radius: 50px;
+}
+.lights:nth-child(1):hover{
+    background-color: red;
+}
+.lights:nth-child(2):hover{
+    background-color: orange;
+}
+.lights:nth-child(3):hover{
+    background-color: green;
+}
