@@ -1,0 +1,101 @@
+body{
+    background-color: khaki;
+    background-image: url("https://img.freepik.com/free-vector/network-connection-background-gradient_23-2148879893.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704067200&semt=ais");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 100px;
+}
+.all{
+    border: 2px;
+    height: 500px;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.first_name{
+    margin-right: 15px;
+}
+#first_name{
+    border: 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+}
+#last_name{
+    border: 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+}
+.email{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#email{
+    border: 2px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 94%;
+}
+.password{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#password{
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 94%;
+}
+.con_pwd{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.privacy{
+    margin-top: 20px;
+    margin-left: 10px;  
+    display: flex;
+    align-items: center;
+
+}
+.submit{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#signup{
+    background-color: aqua;
+    border: 2px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.para1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.para2{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+a{
+    color: lightcyan;
+}
